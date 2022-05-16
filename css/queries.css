@@ -1,0 +1,124 @@
+@media (max-width: 78em) {
+  .container {
+    grid-template-columns: 1fr 105rem;
+  }
+  .container--nav {
+    justify-content: flex-end;
+  }
+  .nav-list-text {
+    display: none;
+  }
+
+  .btn--lg {
+    display: none;
+  }
+
+  .btn--rd-outer {
+    display: block;
+  }
+
+  .username-box {
+    display: none;
+  }
+
+  .profile-details svg {
+    display: none;
+  }
+}
+
+@media (max-width: 72em) {
+  .container {
+    grid-template-columns: 1fr 9fr;
+  }
+}
+
+@media (max-width: 64em) {
+  .container {
+    grid-template-columns: 1fr 5fr;
+  }
+
+  .container--body {
+    grid-template-columns: 60rem 1fr;
+  }
+
+  .container--aside {
+    display: none;
+  }
+
+  .aside-end-detector {
+    display: none;
+  }
+
+  .nav-list .nav-list-search {
+    display: block;
+  }
+
+  .nav-action {
+    grid-template-rows: 2fr 1fr 2fr;
+  }
+}
+
+@media (max-width: 44em) {
+  .chart-icon,
+  .time-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 41em) {
+  .container--nav {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    max-width: 100%;
+  }
+
+  .container--body {
+    grid-template-columns: 1fr;
+  }
+
+  .main-header-img {
+    display: block;
+  }
+
+  .main--header {
+    display: none;
+  }
+
+  .user-photo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .sticky-icons {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
+@media (max-width: 31em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 24em) {
+  .post-user-name,
+  .verified-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 16em) {
+  .user-photo {
+    display: none;
+  }
+
+  .post-container--inner {
+    grid-template-columns: 1fr;
+  }
+}
