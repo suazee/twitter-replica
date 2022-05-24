@@ -20,8 +20,12 @@ stickyIconLinks.forEach((stickyIconLink) => {
 
 const happening = document.querySelector("#happening");
 const visiblePostBox = document.querySelector(".visible-post-box");
+const btnSm = document.querySelector(".btn--sm");
+const locationIcon = document.querySelector(".location-icon");
 happening.addEventListener("click", function () {
   visiblePostBox.classList.remove("hidden");
+  btnSm.classList.remove("btn--sm-inactive");
+  locationIcon.classList.remove("header-icon--inactive");
 });
 
 const year = document.querySelector(".year");
