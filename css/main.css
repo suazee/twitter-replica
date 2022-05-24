@@ -65,7 +65,7 @@
   stroke: #1d9bf0;
 }
 
-.header-icon:last-child {
+.header-icon--inactive {
   stroke: #0f4e78;
 }
 
