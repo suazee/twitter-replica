@@ -11,6 +11,7 @@
   position: absolute;
   top: -82rem;
   align-self: stretch;
+  transition: all 0.3s;
 }
 
 .aside-end-detector {
